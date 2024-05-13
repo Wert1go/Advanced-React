@@ -6,7 +6,7 @@ import PaginationStyles from './styles/PaginationStyles';
 import DisplayError from './ErrorMessage';
 import { perPage } from '../config';
 
-const PRODUCTS_COUNT = gql`
+export const PRODUCTS_COUNT = gql`
   query PRODUCTS_COUNT {
     _allProductsMeta {
       count
