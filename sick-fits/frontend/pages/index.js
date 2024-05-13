@@ -1,5 +1,1 @@
-import Products from '../components/Products';
-
-export default function IndexPage() {
-  return <Products />;
-}
+export { default } from './products/index';
